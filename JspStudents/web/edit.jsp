@@ -22,19 +22,19 @@ Students s= (Students)request.getAttribute("student");
             <input type="hidden" name="action" value="update"/>
             <input type="hidden" name="id" value="<%=s.getId()%>"/>
 
-    <label for="">Name</label>
+    <label for="">Roll</label>
     <input type="text" name="name" value="<%=s.getName()%>"><br>
 
-    <label for="">Email</label>
-    <input type="email" name="email" value="<%=s.getEmail()%>"><br>
+    <label for="">Name</label>
+    <input type="text" name="email" value="<%=s.getEmail()%>"><br>
 
-    <label for="">Date of birth</label>
-    <input type="date" name="dob" value="<%=s.getDob()%>"><br>
+    <label for="">Subjects</label>
+    <input type="text" name="dob" value="<%=s.getDob()%>"><br>
     
-    <label for="">Fee</label>
+    <label for="">Marks</label>
     <input type="number" name="fee" value="<%=s.getFee()%>"><br>
     
-    <label for="">Department</label>
+    <label for="">Departments</label>
     <input type="text" name="department" value="<%=s.getDepartment()%>"><br>
 
     <input type="submit" value="update">

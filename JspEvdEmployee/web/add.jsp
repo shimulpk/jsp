@@ -16,19 +16,19 @@
         <form action="EmployeeServlet" method="post">
             <input type="hidden" name="action" value="add"/>
 
-    <label for="">Name</label>
+    <label for="">Roll</label>
     <input type="text" name="name"><br>
 
-    <label for="">Designation</label>
+    <label for="">Name</label>
     <input type="text" name="designation"><br>
 
-    <label for="">Salary</label>
+    <label for="">Subjects</label>
     <input type="text" name="salary"><br>
     
-    <label for="">Hire Date</label>
-    <input type="text" name="hire_date"><br>
+    <label for="">Marks</label>
+    <input type="text" name="department"><br>
     
-    <label for="">Department</label>
+    <label for="">Departments</label>
     <input type="text" name="department"><br>
 
     <input type="submit" value="save">

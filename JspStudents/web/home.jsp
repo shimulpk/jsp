@@ -22,19 +22,20 @@ request.setAttribute("list",list);
         <table border="1">
     <thead>
         <tr>
-        <th>Id</th>
+<!--             <th>Id</th>-->
+        <th>Roll</th>
         <th>Name</th>
-        <th>Email</th>
-        <th>Date of birth</th>
-        <th>Fee</th>
-        <th>Department</th>
+        <th>Subjects</th>
+        <th>Marks</th>
+        <th>Departments</th>
+       
         <th>Action</th>
         </tr>
     </thead>
     <tbody>
         <c:forEach items="${list}" var="s">
             <tr>    
-      <td>${s.id}</td>
+<!--      <td>${s.id}</td>-->
       <td>${s.name}</td>
       <td>${s.email}</td>
       <td>${s.dob}</td>

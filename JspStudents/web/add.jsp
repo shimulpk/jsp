@@ -17,19 +17,19 @@
         <form action="StudentsServlet" method="post">
             <input type="hidden" name="action" value="add"/>
 
-    <label for="">Name</label>
+    <label for="">Roll</label>
     <input type="text" name="name"><br>
 
-    <label for="">Email</label>
-    <input type="email" name="email"><br>
+    <label for="">Name</label>
+    <input type="text" name="email"><br>
 
-    <label for="">Date of birth</label>
-    <input type="date" name="dob"><br>
+    <label for="">Subjects</label>
+    <input type="text" name="dob"><br>
     
-    <label for="">Fee</label>
+    <label for="">Marks</label>
     <input type="number" name="fee"><br>
     
-    <label for="">Department</label>
+    <label for="">Departments</label>
     <input type="text" name="department"><br>
 
     <input type="submit" value="save">
