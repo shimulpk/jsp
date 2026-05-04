@@ -20,7 +20,7 @@ Employee e= (Employee)request.getAttribute("employee");
         <h1>Edit Employee</h1>
         
         <form action="EmployeeServlet" method="post">
-            <input type="hidden" name="action" value="add"/>
+            <input type="hidden" name="action" value="update"/>
             <input type="hidden" name="id" value="<%=e.getId()%>"/>
 
     <label for="">Name</label>

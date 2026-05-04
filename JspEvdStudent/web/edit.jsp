@@ -19,7 +19,7 @@ Student s= (Student)request.getAttribute("student");
     <body>
         <h1>Hello World!</h1>
         <form action="StudentServlet" method="post">
-            <input type="hidden" name="action" value="add"/>
+            <input type="hidden" name="action" value="update"/>
             <input type="hidden" name="id" value="<%=s.getId()%>"/>
 
     <label for="">Name</label>
